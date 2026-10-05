@@ -1,0 +1,8 @@
+.wl-grid { display: grid; grid-template-columns: 340px 1fr; gap: 1.5rem; align-items: start; }
+.wl-item { display: grid; grid-template-columns: 60px 1fr auto; gap: 0.8rem; align-items: center; padding: 0.7rem 0; border-bottom: 1px solid var(--border); }
+.wl-item .p-img { font-size: 1.8rem; border-radius: 10px; }
+.compare-table td:first-child { color: var(--muted); font-size: 0.85rem; white-space: nowrap; }
+.compare-table th { text-align: center; }
+.compare-table td { text-align: center; }
+.compare-table td:first-child { text-align: start; }
+@media (max-width: 900px) { .wl-grid { grid-template-columns: 1fr; } }

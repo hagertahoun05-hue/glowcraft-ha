@@ -1,0 +1,5 @@
+.tracker-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; align-items: start; }
+.tag-list { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.4rem 0 1rem; }
+.tracked { display: grid; grid-template-columns: 1fr auto; gap: 0.5rem 1rem; align-items: center; padding: 0.9rem 0; border-bottom: 1px solid var(--border); }
+.tracked input[type='date'] { width: auto; padding: 0.3rem 0.5rem; font-size: 0.85rem; }
+@media (max-width: 800px) { .tracker-grid { grid-template-columns: 1fr; } }

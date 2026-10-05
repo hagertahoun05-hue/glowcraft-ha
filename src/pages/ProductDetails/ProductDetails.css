@@ -1,0 +1,13 @@
+.pd { display: grid; grid-template-columns: 1fr 1.1fr; gap: 2.5rem; align-items: start; }
+.pd h1 { font-size: 2rem; margin-bottom: 0.4rem; }
+.pd-price { font-size: 1.7rem; font-weight: 600; margin: 0.8rem 0; display: flex; align-items: center; gap: 0.6rem; }
+.qty { display: inline-flex; align-items: center; border: 1.5px solid var(--border); border-radius: 10px; overflow: hidden; }
+.qty button { width: 36px; height: 40px; border: none; background: var(--surface); color: var(--text); font-size: 1.1rem; }
+.qty span { min-width: 38px; text-align: center; }
+.info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin-top: 1.5rem; }
+.ing-item { display: flex; align-items: center; gap: 0.6rem; padding: 0.35rem 0; }
+.ing-item::before { content: '✓'; color: var(--primary); font-weight: 700; }
+.pao { display: flex; align-items: center; gap: 1rem; }
+.pao-icon { border: 2px solid var(--primary); border-radius: 12px; padding: 0.6rem 0.8rem; font-weight: 700; color: var(--primary); }
+.review { border-bottom: 1px solid var(--border); padding: 0.8rem 0; }
+@media (max-width: 800px) { .pd, .info-grid { grid-template-columns: 1fr; } }

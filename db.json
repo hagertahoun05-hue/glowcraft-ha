@@ -1,0 +1,809 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "GlowCraft Admin",
+      "email": "admin@glowcraft.com",
+      "password": "Admin@123",
+      "role": "admin",
+      "phone": "01000000000",
+      "address": "Cairo, Egypt"
+    },
+    {
+      "id": 2,
+      "name": "Eman Osman",
+      "email": "eman@example.com",
+      "password": "123456",
+      "role": "user",
+      "phone": "01012345678",
+      "address": "Monufia, Egypt"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "slug": "cleansers",
+      "name": "Cleansers",
+      "nameAr": "غسولات",
+      "emoji": "🫧"
+    },
+    {
+      "id": 2,
+      "slug": "serums",
+      "name": "Serums",
+      "nameAr": "سيرومات",
+      "emoji": "🧴"
+    },
+    {
+      "id": 3,
+      "slug": "moisturizers",
+      "name": "Moisturizers",
+      "nameAr": "مرطبات",
+      "emoji": "🫙"
+    },
+    {
+      "id": 4,
+      "slug": "sunscreens",
+      "name": "Sunscreens",
+      "nameAr": "واقيات الشمس",
+      "emoji": "☀️"
+    },
+    {
+      "id": 5,
+      "slug": "masks",
+      "name": "Masks",
+      "nameAr": "ماسكات",
+      "emoji": "🏺"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Vitamin C Serum",
+      "nameAr": "سيروم فيتامين سي",
+      "category": "serums",
+      "price": 34.99,
+      "discount": 29,
+      "skinTypes": [
+        "all"
+      ],
+      "concerns": [
+        "dark-spots",
+        "dullness"
+      ],
+      "ingredients": [
+        "Vitamin C",
+        "Hyaluronic Acid",
+        "Niacinamide",
+        "Aloe Vera"
+      ],
+      "ingredientsAr": [
+        "فيتامين سي",
+        "حمض الهيالورونيك",
+        "نياسيناميد",
+        "الصبار"
+      ],
+      "benefits": [
+        "Brightens skin",
+        "Hydrates",
+        "Reduces dark spots",
+        "Improves texture"
+      ],
+      "benefitsAr": [
+        "تفتّح البشرة",
+        "ترطّب البشرة",
+        "تقلل البقع الداكنة",
+        "تحسّن ملمس البشرة"
+      ],
+      "pao": 12,
+      "rating": 4.8,
+      "reviews": 124,
+      "emoji": "🧴",
+      "color": "#f4e1cf",
+      "image": "",
+      "bestSeller": true,
+      "stock": 50,
+      "description": "A lightweight serum with 10% Vitamin C, hyaluronic acid and antioxidants to give your skin a natural glow.",
+      "descriptionAr": "سيروم خفيف بتركيز 10% فيتامين سي وحمض الهيالورونيك ومضادات الأكسدة ليمنح بشرتك إشراقة طبيعية.",
+      "howToUse": "Apply 2-3 drops to clean skin every morning, then follow with moisturizer and sunscreen.",
+      "howToUseAr": "ضعي 2-3 قطرات على بشرة نظيفة كل صباح، ثم رطّبي واستخدمي واقي الشمس."
+    },
+    {
+      "id": 2,
+      "name": "Hyaluronic Acid Serum",
+      "nameAr": "سيروم حمض الهيالورونيك",
+      "category": "serums",
+      "price": 22.99,
+      "discount": 0,
+      "skinTypes": [
+        "dry",
+        "combination",
+        "sensitive"
+      ],
+      "concerns": [
+        "dryness",
+        "aging"
+      ],
+      "ingredients": [
+        "Hyaluronic Acid",
+        "Glycerin",
+        "Panthenol"
+      ],
+      "ingredientsAr": [
+        "حمض الهيالورونيك",
+        "الجلسرين",
+        "بانثينول"
+      ],
+      "benefits": [
+        "Hydrates",
+        "Improves texture",
+        "Strengthens barrier"
+      ],
+      "benefitsAr": [
+        "ترطّب البشرة",
+        "تحسّن ملمس البشرة",
+        "تقوّي حاجز البشرة"
+      ],
+      "pao": 12,
+      "rating": 4.7,
+      "reviews": 98,
+      "emoji": "💧",
+      "color": "#dfeaf3",
+      "image": "",
+      "bestSeller": true,
+      "stock": 40,
+      "description": "Deep hydration that plumps the skin and keeps moisture locked in all day.",
+      "descriptionAr": "ترطيب عميق يمنح البشرة امتلاءً ويحبس الرطوبة طوال اليوم.",
+      "howToUse": "Apply to damp skin morning and night.",
+      "howToUseAr": "ضعيه على بشرة رطبة صباحًا ومساءً."
+    },
+    {
+      "id": 3,
+      "name": "Niacinamide Serum",
+      "nameAr": "سيروم النياسيناميد",
+      "category": "serums",
+      "price": 19.99,
+      "discount": 0,
+      "skinTypes": [
+        "oily",
+        "combination"
+      ],
+      "concerns": [
+        "acne",
+        "dark-spots"
+      ],
+      "ingredients": [
+        "Niacinamide",
+        "Zinc Oxide",
+        "Green Tea"
+      ],
+      "ingredientsAr": [
+        "نياسيناميد",
+        "أكسيد الزنك",
+        "الشاي الأخضر"
+      ],
+      "benefits": [
+        "Controls oil",
+        "Reduces dark spots",
+        "Improves texture"
+      ],
+      "benefitsAr": [
+        "تتحكم في الدهون",
+        "تقلل البقع الداكنة",
+        "تحسّن ملمس البشرة"
+      ],
+      "pao": 12,
+      "rating": 4.5,
+      "reviews": 87,
+      "emoji": "🌿",
+      "color": "#dde8d8",
+      "image": "",
+      "bestSeller": true,
+      "stock": 35,
+      "description": "A balancing serum that refines pores and evens out tone.",
+      "descriptionAr": "سيروم موازن يقلل ظهور المسام ويوحّد لون البشرة.",
+      "howToUse": "Apply 3-4 drops after cleansing, once or twice daily.",
+      "howToUseAr": "ضعي 3-4 قطرات بعد التنظيف مرة أو مرتين يوميًا."
+    },
+    {
+      "id": 4,
+      "name": "Retinol Night Serum",
+      "nameAr": "سيروم الريتينول الليلي",
+      "category": "serums",
+      "price": 29.99,
+      "discount": 0,
+      "skinTypes": [
+        "combination",
+        "dry"
+      ],
+      "concerns": [
+        "aging",
+        "dullness"
+      ],
+      "ingredients": [
+        "Retinol",
+        "Ceramides",
+        "Glycerin"
+      ],
+      "ingredientsAr": [
+        "ريتينول",
+        "سيراميد",
+        "الجلسرين"
+      ],
+      "benefits": [
+        "Anti-aging",
+        "Improves texture",
+        "Brightens skin"
+      ],
+      "benefitsAr": [
+        "تقاوم علامات التقدم في السن",
+        "تحسّن ملمس البشرة",
+        "تفتّح البشرة"
+      ],
+      "pao": 6,
+      "rating": 4.4,
+      "reviews": 56,
+      "emoji": "🌙",
+      "color": "#e6dcee",
+      "image": "",
+      "bestSeller": false,
+      "stock": 25,
+      "description": "A gentle night retinol that smooths fine lines while you sleep.",
+      "descriptionAr": "ريتينول ليلي لطيف يخفف الخطوط الدقيقة أثناء نومك.",
+      "howToUse": "Use at night only, 2-3 times a week at first. Always use sunscreen in the morning.",
+      "howToUseAr": "استخدميه ليلًا فقط 2-3 مرات أسبوعيًا في البداية، واستخدمي واقي الشمس صباحًا."
+    },
+    {
+      "id": 5,
+      "name": "Gentle Cleanser",
+      "nameAr": "غسول لطيف",
+      "category": "cleansers",
+      "price": 14.99,
+      "discount": 0,
+      "skinTypes": [
+        "all"
+      ],
+      "concerns": [
+        "sensitivity",
+        "dryness"
+      ],
+      "ingredients": [
+        "Glycerin",
+        "Aloe Vera",
+        "Panthenol"
+      ],
+      "ingredientsAr": [
+        "الجلسرين",
+        "الصبار",
+        "بانثينول"
+      ],
+      "benefits": [
+        "Deep cleansing",
+        "Calms irritation",
+        "Hydrates"
+      ],
+      "benefitsAr": [
+        "تنظيف عميق",
+        "تهدّئ التهيّج",
+        "ترطّب البشرة"
+      ],
+      "pao": 12,
+      "rating": 4.5,
+      "reviews": 143,
+      "emoji": "🫧",
+      "color": "#f2e6e1",
+      "image": "",
+      "bestSeller": false,
+      "stock": 60,
+      "description": "A soft cream cleanser that removes impurities without stripping the skin.",
+      "descriptionAr": "غسول كريمي ناعم يزيل الشوائب دون أن يجفف البشرة.",
+      "howToUse": "Massage on damp skin for 30 seconds and rinse with lukewarm water.",
+      "howToUseAr": "دلّكيه على البشرة المبللة لمدة 30 ثانية ثم اشطفي بماء فاتر."
+    },
+    {
+      "id": 6,
+      "name": "Foaming Gel Cleanser",
+      "nameAr": "غسول جل رغوي",
+      "category": "cleansers",
+      "price": 13.99,
+      "discount": 15,
+      "skinTypes": [
+        "oily",
+        "combination"
+      ],
+      "concerns": [
+        "acne"
+      ],
+      "ingredients": [
+        "Salicylic Acid",
+        "Green Tea",
+        "Glycerin"
+      ],
+      "ingredientsAr": [
+        "حمض الساليسيليك",
+        "الشاي الأخضر",
+        "الجلسرين"
+      ],
+      "benefits": [
+        "Deep cleansing",
+        "Controls oil"
+      ],
+      "benefitsAr": [
+        "تنظيف عميق",
+        "تتحكم في الدهون"
+      ],
+      "pao": 12,
+      "rating": 4.3,
+      "reviews": 71,
+      "emoji": "🧼",
+      "color": "#dcebe6",
+      "image": "",
+      "bestSeller": false,
+      "stock": 45,
+      "description": "A fresh gel that clears excess oil and keeps pores clean.",
+      "descriptionAr": "جل منعش يزيل الدهون الزائدة ويحافظ على نظافة المسام.",
+      "howToUse": "Use morning and night on wet skin, then rinse well.",
+      "howToUseAr": "استخدميه صباحًا ومساءً على بشرة مبللة ثم اشطفي جيدًا."
+    },
+    {
+      "id": 7,
+      "name": "Moisturizing Cream",
+      "nameAr": "كريم مرطب",
+      "category": "moisturizers",
+      "price": 26.99,
+      "discount": 31,
+      "skinTypes": [
+        "dry",
+        "sensitive",
+        "combination"
+      ],
+      "concerns": [
+        "dryness",
+        "sensitivity"
+      ],
+      "ingredients": [
+        "Ceramides",
+        "Shea Butter",
+        "Hyaluronic Acid"
+      ],
+      "ingredientsAr": [
+        "سيراميد",
+        "زبدة الشيا",
+        "حمض الهيالورونيك"
+      ],
+      "benefits": [
+        "Hydrates",
+        "Strengthens barrier",
+        "Calms irritation"
+      ],
+      "benefitsAr": [
+        "ترطّب البشرة",
+        "تقوّي حاجز البشرة",
+        "تهدّئ التهيّج"
+      ],
+      "pao": 12,
+      "rating": 4.6,
+      "reviews": 110,
+      "emoji": "🫙",
+      "color": "#f3e8dc",
+      "image": "",
+      "bestSeller": true,
+      "stock": 30,
+      "description": "A rich daily cream that restores the skin barrier and keeps skin soft.",
+      "descriptionAr": "كريم غني يوميًا يعيد بناء حاجز البشرة ويحافظ على نعومتها.",
+      "howToUse": "Apply a pea-sized amount to face and neck after serum.",
+      "howToUseAr": "ضعي كمية بحجم حبة البازلاء على الوجه والرقبة بعد السيروم."
+    },
+    {
+      "id": 8,
+      "name": "Oil-Free Gel Moisturizer",
+      "nameAr": "مرطب جل خالٍ من الزيوت",
+      "category": "moisturizers",
+      "price": 16.99,
+      "discount": 0,
+      "skinTypes": [
+        "oily",
+        "combination"
+      ],
+      "concerns": [
+        "acne",
+        "dullness"
+      ],
+      "ingredients": [
+        "Hyaluronic Acid",
+        "Niacinamide",
+        "Aloe Vera"
+      ],
+      "ingredientsAr": [
+        "حمض الهيالورونيك",
+        "نياسيناميد",
+        "الصبار"
+      ],
+      "benefits": [
+        "Hydrates",
+        "Controls oil"
+      ],
+      "benefitsAr": [
+        "ترطّب البشرة",
+        "تتحكم في الدهون"
+      ],
+      "pao": 12,
+      "rating": 4.4,
+      "reviews": 64,
+      "emoji": "🥒",
+      "color": "#e1eddc",
+      "image": "",
+      "bestSeller": false,
+      "stock": 38,
+      "description": "A weightless gel cream for oily and combination skin.",
+      "descriptionAr": "كريم جل خفيف للبشرة الدهنية والمختلطة.",
+      "howToUse": "Apply morning and night after serum.",
+      "howToUseAr": "ضعيه صباحًا ومساءً بعد السيروم."
+    },
+    {
+      "id": 9,
+      "name": "Sunscreen SPF 50",
+      "nameAr": "واقي شمس SPF 50",
+      "category": "sunscreens",
+      "price": 22.99,
+      "discount": 26,
+      "skinTypes": [
+        "all"
+      ],
+      "concerns": [
+        "dark-spots",
+        "aging"
+      ],
+      "ingredients": [
+        "Zinc Oxide",
+        "Vitamin C",
+        "Aloe Vera"
+      ],
+      "ingredientsAr": [
+        "أكسيد الزنك",
+        "فيتامين سي",
+        "الصبار"
+      ],
+      "benefits": [
+        "Sun protection",
+        "Reduces dark spots"
+      ],
+      "benefitsAr": [
+        "تحمي من الشمس",
+        "تقلل البقع الداكنة"
+      ],
+      "pao": 12,
+      "rating": 4.7,
+      "reviews": 152,
+      "emoji": "☀️",
+      "color": "#f7ecc9",
+      "image": "",
+      "bestSeller": true,
+      "stock": 55,
+      "description": "A broad-spectrum sunscreen with no white cast, light enough for daily wear.",
+      "descriptionAr": "واقي شمس واسع الطيف بدون أثر أبيض وخفيف للاستخدام اليومي.",
+      "howToUse": "Apply generously as the last morning step and reapply every 2-3 hours outdoors.",
+      "howToUseAr": "ضعيه بسخاء كآخر خطوة صباحًا وأعيدي وضعه كل 2-3 ساعات في الخارج."
+    },
+    {
+      "id": 10,
+      "name": "Mineral Sunscreen SPF 30",
+      "nameAr": "واقي شمس معدني SPF 30",
+      "category": "sunscreens",
+      "price": 19.99,
+      "discount": 0,
+      "skinTypes": [
+        "sensitive",
+        "dry"
+      ],
+      "concerns": [
+        "sensitivity"
+      ],
+      "ingredients": [
+        "Zinc Oxide",
+        "Shea Butter",
+        "Panthenol"
+      ],
+      "ingredientsAr": [
+        "أكسيد الزنك",
+        "زبدة الشيا",
+        "بانثينول"
+      ],
+      "benefits": [
+        "Sun protection",
+        "Calms irritation"
+      ],
+      "benefitsAr": [
+        "تحمي من الشمس",
+        "تهدّئ التهيّج"
+      ],
+      "pao": 12,
+      "rating": 4.3,
+      "reviews": 49,
+      "emoji": "🌤️",
+      "color": "#f6efd8",
+      "image": "",
+      "bestSeller": false,
+      "stock": 28,
+      "description": "A gentle mineral formula made for sensitive skin.",
+      "descriptionAr": "تركيبة معدنية لطيفة مصممة للبشرة الحساسة.",
+      "howToUse": "Apply as the last morning step.",
+      "howToUseAr": "ضعيه كآخر خطوة صباحًا."
+    },
+    {
+      "id": 11,
+      "name": "Clay Mask",
+      "nameAr": "ماسك الطين",
+      "category": "masks",
+      "price": 17.99,
+      "discount": 28,
+      "skinTypes": [
+        "oily",
+        "combination"
+      ],
+      "concerns": [
+        "acne"
+      ],
+      "ingredients": [
+        "Kaolin Clay",
+        "Salicylic Acid",
+        "Aloe Vera"
+      ],
+      "ingredientsAr": [
+        "طين الكاولين",
+        "حمض الساليسيليك",
+        "الصبار"
+      ],
+      "benefits": [
+        "Deep cleansing",
+        "Controls oil"
+      ],
+      "benefitsAr": [
+        "تنظيف عميق",
+        "تتحكم في الدهون"
+      ],
+      "pao": 12,
+      "rating": 4.4,
+      "reviews": 77,
+      "emoji": "🏺",
+      "color": "#e8dccf",
+      "image": "",
+      "bestSeller": false,
+      "stock": 20,
+      "description": "A purifying clay mask that draws out impurities and shine.",
+      "descriptionAr": "ماسك طين منقٍّ يسحب الشوائب واللمعان الزائد.",
+      "howToUse": "Apply a thin layer, leave for 10 minutes, rinse. Use once or twice a week.",
+      "howToUseAr": "ضعي طبقة رقيقة واتركيها 10 دقائق ثم اشطفي. استخدميه مرة أو مرتين أسبوعيًا."
+    },
+    {
+      "id": 12,
+      "name": "Hydrating Night Mask",
+      "nameAr": "ماسك الليل المرطب",
+      "category": "masks",
+      "price": 21.99,
+      "discount": 0,
+      "skinTypes": [
+        "dry",
+        "sensitive"
+      ],
+      "concerns": [
+        "dryness"
+      ],
+      "ingredients": [
+        "Hyaluronic Acid",
+        "Ceramides",
+        "Shea Butter"
+      ],
+      "ingredientsAr": [
+        "حمض الهيالورونيك",
+        "سيراميد",
+        "زبدة الشيا"
+      ],
+      "benefits": [
+        "Hydrates",
+        "Strengthens barrier"
+      ],
+      "benefitsAr": [
+        "ترطّب البشرة",
+        "تقوّي حاجز البشرة"
+      ],
+      "pao": 12,
+      "rating": 4.6,
+      "reviews": 39,
+      "emoji": "🌸",
+      "color": "#f1dde0",
+      "image": "",
+      "bestSeller": false,
+      "stock": 22,
+      "description": "An overnight mask that wakes you up to soft, rested skin.",
+      "descriptionAr": "ماسك ليلي يمنحك بشرة ناعمة ومرتاحة عند الاستيقاظ.",
+      "howToUse": "Apply as the last step at night, 2-3 times a week.",
+      "howToUseAr": "ضعيه كآخر خطوة ليلًا 2-3 مرات أسبوعيًا."
+    }
+  ],
+  "orders": [
+    {
+      "id": 1001,
+      "userId": 2,
+      "customerName": "Eman Osman",
+      "phone": "01012345678",
+      "address": "Monufia, Egypt",
+      "city": "Monufia",
+      "payment": "cod",
+      "items": [
+        {
+          "id": 1,
+          "name": "Vitamin C Serum",
+          "nameAr": "سيروم فيتامين سي",
+          "price": 24.84,
+          "emoji": "🧴",
+          "color": "#f4e1cf",
+          "qty": 1
+        },
+        {
+          "id": 7,
+          "name": "Moisturizing Cream",
+          "nameAr": "كريم مرطب",
+          "price": 18.62,
+          "emoji": "🫙",
+          "color": "#f3e8dc",
+          "qty": 1
+        }
+      ],
+      "subtotal": 43.46,
+      "shipping": 4.99,
+      "total": 48.45,
+      "status": "delivered",
+      "date": "2026-08-12"
+    },
+    {
+      "id": 1002,
+      "userId": 2,
+      "customerName": "Eman Osman",
+      "phone": "01012345678",
+      "address": "Monufia, Egypt",
+      "city": "Monufia",
+      "payment": "cod",
+      "items": [
+        {
+          "id": 2,
+          "name": "Hyaluronic Acid Serum",
+          "nameAr": "سيروم حمض الهيالورونيك",
+          "price": 22.99,
+          "emoji": "💧",
+          "color": "#dfeaf3",
+          "qty": 1
+        }
+      ],
+      "subtotal": 22.99,
+      "shipping": 4.99,
+      "total": 27.98,
+      "status": "delivered",
+      "date": "2026-08-30"
+    },
+    {
+      "id": 1003,
+      "userId": 2,
+      "customerName": "Eman Osman",
+      "phone": "01012345678",
+      "address": "Monufia, Egypt",
+      "city": "Monufia",
+      "payment": "cod",
+      "items": [
+        {
+          "id": 3,
+          "name": "Niacinamide Serum",
+          "nameAr": "سيروم النياسيناميد",
+          "price": 19.99,
+          "emoji": "🌿",
+          "color": "#dde8d8",
+          "qty": 1
+        },
+        {
+          "id": 8,
+          "name": "Oil-Free Gel Moisturizer",
+          "nameAr": "مرطب جل خالٍ من الزيوت",
+          "price": 16.99,
+          "emoji": "🥒",
+          "color": "#e1eddc",
+          "qty": 2
+        },
+        {
+          "id": 5,
+          "name": "Gentle Cleanser",
+          "nameAr": "غسول لطيف",
+          "price": 14.99,
+          "emoji": "🫧",
+          "color": "#f2e6e1",
+          "qty": 1
+        }
+      ],
+      "subtotal": 68.96,
+      "shipping": 0,
+      "total": 68.96,
+      "status": "shipped",
+      "date": "2026-09-20"
+    },
+    {
+      "id": 1004,
+      "userId": 2,
+      "customerName": "Eman Osman",
+      "phone": "01012345678",
+      "address": "Monufia, Egypt",
+      "city": "Monufia",
+      "payment": "cod",
+      "items": [
+        {
+          "id": 6,
+          "name": "Foaming Gel Cleanser",
+          "nameAr": "غسول جل رغوي",
+          "price": 11.89,
+          "emoji": "🧼",
+          "color": "#dcebe6",
+          "qty": 1
+        }
+      ],
+      "subtotal": 11.89,
+      "shipping": 4.99,
+      "total": 16.88,
+      "status": "processing",
+      "date": "2026-09-27"
+    },
+    {
+      "id": 1005,
+      "userId": 2,
+      "customerName": "Eman Osman",
+      "phone": "01012345678",
+      "address": "Monufia, Egypt",
+      "city": "Monufia",
+      "payment": "cod",
+      "items": [
+        {
+          "id": 10,
+          "name": "Mineral Sunscreen SPF 30",
+          "nameAr": "واقي شمس معدني SPF 30",
+          "price": 19.99,
+          "emoji": "🌤️",
+          "color": "#f6efd8",
+          "qty": 1
+        },
+        {
+          "id": 12,
+          "name": "Hydrating Night Mask",
+          "nameAr": "ماسك الليل المرطب",
+          "price": 21.99,
+          "emoji": "🌸",
+          "color": "#f1dde0",
+          "qty": 1
+        }
+      ],
+      "subtotal": 41.98,
+      "shipping": 4.99,
+      "total": 46.97,
+      "status": "pending",
+      "date": "2026-10-02"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 2,
+      "userName": "Eman Osman",
+      "rating": 5,
+      "comment": "Brightened my skin in two weeks.",
+      "date": "2026-09-01"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "userId": 2,
+      "userName": "Sara A.",
+      "rating": 4,
+      "comment": "Light texture, absorbs fast.",
+      "date": "2026-09-10"
+    }
+  ],
+  "trackedProducts": [],
+  "messages": []
+}

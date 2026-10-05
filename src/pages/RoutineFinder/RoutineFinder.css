@@ -1,0 +1,11 @@
+.quiz { max-width: 760px; margin-inline: auto; }
+.options { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.75rem; margin: 1rem 0 1.5rem; }
+.option {
+  background: var(--surface); color: var(--text); border: 1.5px solid var(--border);
+  border-radius: 12px; padding: 0.9rem; font-size: 0.95rem;
+}
+.option.selected { border-color: var(--primary); background: var(--surface-2); font-weight: 600; }
+.routine-step { display: grid; grid-template-columns: 90px 1fr auto; gap: 1rem; align-items: center; }
+.routine-step .p-img { font-size: 2.4rem; }
+.step-label { font-size: 0.8rem; color: var(--muted); }
+@media (max-width: 560px) { .routine-step { grid-template-columns: 70px 1fr; } .routine-step .btn { grid-column: 1 / -1; } }

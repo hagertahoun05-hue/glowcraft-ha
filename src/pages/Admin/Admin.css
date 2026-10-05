@@ -1,0 +1,13 @@
+.admin-layout { display: grid; grid-template-columns: 200px 1fr; gap: 1.5rem; align-items: start; }
+.admin-menu { display: flex; flex-direction: column; gap: 0.3rem; }
+.admin-menu button {
+  text-align: start; background: none; border: none; color: var(--text);
+  padding: 0.6rem 0.8rem; border-radius: 10px; font-size: 0.92rem;
+}
+.admin-menu button.active { background: var(--primary); color: var(--on-primary); }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+.stat strong { display: block; font-size: 1.8rem; font-family: var(--font-head); }
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1rem; }
+.form-grid .full { grid-column: 1 / -1; }
+.thumb { width: 38px; height: 38px; border-radius: 8px; display: grid; place-items: center; font-size: 1.3rem; }
+@media (max-width: 800px) { .admin-layout { grid-template-columns: 1fr; } .admin-menu { flex-direction: row; flex-wrap: wrap; } .form-grid { grid-template-columns: 1fr; } }

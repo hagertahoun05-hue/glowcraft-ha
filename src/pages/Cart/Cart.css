@@ -1,0 +1,9 @@
+.cart-grid { display: grid; grid-template-columns: 1fr 340px; gap: 1.5rem; align-items: start; }
+.cart-item { display: grid; grid-template-columns: 70px 1fr auto auto; gap: 1rem; align-items: center; padding: 0.9rem 0; border-bottom: 1px solid var(--border); }
+.cart-item .p-img { font-size: 2rem; border-radius: 10px; }
+.qty-sm { display: inline-flex; align-items: center; border: 1.5px solid var(--border); border-radius: 8px; overflow: hidden; }
+.qty-sm button { width: 30px; height: 32px; border: none; background: var(--surface); color: var(--text); }
+.qty-sm span { min-width: 30px; text-align: center; font-size: 0.9rem; }
+.sum-row { display: flex; justify-content: space-between; padding: 0.35rem 0; }
+.sum-row.total { border-top: 1px solid var(--border); margin-top: 0.5rem; padding-top: 0.8rem; font-weight: 700; font-size: 1.15rem; }
+@media (max-width: 800px) { .cart-grid { grid-template-columns: 1fr; } .cart-item { grid-template-columns: 60px 1fr; } }
